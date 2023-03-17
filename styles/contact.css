@@ -1,0 +1,273 @@
+
+*{
+    margin:0;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+
+
+
+.btn-box{
+    margin:0vh auto 0 auto;
+    height: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.nav-bar{
+    width: 100%;
+    height: 40px;
+    background-color:#71b5e971 ;
+}
+.nav-bar div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10px;
+}
+.nav-bar img{
+    padding-right: 10px;
+}
+
+.profile{
+    width: 50%;
+    height: 130px;
+    margin: 20vh auto 0 auto;
+}
+.profile figure{
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 1px solid silver;
+    border-radius: 100%;
+    margin: 0 auto 0 auto;
+}
+.profile figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.detel{
+    width: 60%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.detel h1{
+    font-size: 20px;
+    line-height: 1cm;
+
+}
+.detel p{
+    font-size: 10px;
+}
+.detel a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#71b5e971 ;
+    padding: 4px 15px 4px 15px;
+    border-radius: 15px;
+    color: black;
+}
+
+
+.btn-y{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+  
+}
+
+.btn-y a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#71b5e971 ;
+    padding: 4px 15px 4px 15px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+
+}
+
+.sserafil{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.sserafil h4{
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+
+
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+
+}
+
+.title .name{
+    width: 60%;
+    text-align: center;
+}
+.title .figure{
+    padding-top: 25px;
+    padding-right: 25px;
+    width: 40%;
+
+}
+.title .figure figure{
+    width: 180px;
+    height: 150px;
+    border: 4px solid silver;
+    overflow: hidden;
+    position: relative;
+    border-bottom: none;
+
+
+}
+.title .figure figure img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+nav{
+    display: flex;
+    width: 84%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.d2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.d2 .left{
+    line-height: 0.7cm;
+   width: 70%;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+}
+.d2 .right{
+    width: 30%;
+}
+
+.section{
+    width: 89.1%;
+    height: 70vh;
+    border: 1px solid black;
+    margin-left: 30px;
+    border-bottom: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.section .box-c{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 5px 0;
+    font-size: 12px;
+}
+.section .box-c .left{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.section .box-c .right{
+    width: 50%;
+    height: auto;
+
+
+}
+.section .box-c .right .figure{
+    display: flex;
+}
+.section .box-c .right .figure img{
+    padding-right: 12px;
+}
+.section .box-c .right .box2{
+    margin-top: 5px;
+    width: 90%;
+    height: 10px;
+    overflow: hidden;
+    border: 1px solid silver;
+    position: relative;
+    border-radius: 10px;
+}
+.section .box-c .right .fill{
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(57, 170, 170);
+    border-radius: 10px;
+
+}
+
+.section form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section form input{
+  width: 90%;
+  margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px dotted black ;
+}
+
+.section form textarea{
+    width: 90%;
+    height: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  border-bottom: 2px dotted black ;
+
+  }
+  .section form label{
+    margin-top: 12px;
+  }
+
+  .reseau{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .reseau img{
+      margin: 0 5px 0 5px;
+  }
